@@ -1,0 +1,143 @@
+@font-face {
+src: url(fonts/Abel-Regular.ttf);
+font-family: FascinateInline-Regular;
+}
+
+body{
+	font-family: FascinateInline-Regular;
+  background-color: #ADD1C7;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color:#5EABED;
+  height: 35vh;
+}
+.container .small{
+padding-top: 20px;
+}
+span{
+  color: red;
+}
+.report a {
+	color: #fff;
+	padding-left: 5px;
+	font-weight: bold;
+	width: 30px;
+	background: #333;
+	color: #fff;
+	padding: 2px 12px;
+	border-radius: 5px 5px 5px 0px;
+}
+.report {
+  padding: 10px;
+	position: fixed;
+	top: 94%;
+}
+.container{
+  background-color: white;
+  border-top: 10px #ADD1C7 solid;
+  width: 75%;
+  margin: auto;
+  margin-top: -200px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+label{
+  display: block;
+  padding-top: 30px;
+  font-weight: 50px;
+  font-size: 18px;
+}
+.container h1{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.container h6{
+  font-weight: normal;
+  font-size: 13px;
+}
+.form-group input{
+border: none;
+padding: 12px 0;
+height: 30px;
+border-bottom: 1px solid #2A2025;
+border-radius: 0;
+-webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  outline: none;
+}
+.form-group input:focus {
+  width: 70%;
+  color: black;
+  border-bottom: 2px solid #5AD;
+}
+.container p{
+  font-size: 13px;
+  padding-top: 10px;
+  font-weight: 0px;
+}
+#notice{
+  display: block;
+  color: black;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.button{
+  margin-top: 40px;
+  background-color: #62A2ED;
+  color: white;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.progressBar {
+	display: inline;
+	margin-left: 10%;
+}
+#progessCount {
+    padding-left: 0px;
+    font-size: 1rem;
+}
+#file{
+ background-color: green;
+  height: 10px;
+}
+#res{
+	color: black;
+	font-size: 14px;
+	margin-left: 10px;
+}
+#notice1{
+  color: black;
+  margin-top: 10px;
+  padding-bottom: 60px;
+}
+footer p, a{
+  text-align: center;
+  margin-top: 50px;
+  color: #666;
+}
+footer #google{
+  margin-top: 26px;
+  font-weight: bold;
+  font-size: 24px;
+}
+@media (min-width: 900px) {
+  .container {
+    width: 40%;
+    margin-top: -100px;
+  }
+	.progressBar {
+		display: inline;
+		margin-left: 50%;
+	}
+}
